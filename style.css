@@ -46,13 +46,13 @@ body{
     margin: 0 auto;
     font-size: 6em;
     font-weight: 900;
-    color: #fff;
+    color: rgb(49, 49, 49);
     opacity: 0;
     transition: 0.3s;
 }
 
 .container .box:hover:before {
-    opacity: 0.04;
+    opacity: 0.2;
 }
 
 .container .box::after {
@@ -62,13 +62,13 @@ body{
     margin: 0 auto;
     font-size: 6em;
     font-weight: 900;
-    color: #fff;
+    color: rgb(49, 49, 49);
     opacity: 0;    
     transition: 0.3s;
 }
 
 .container .box:hover:after {
-    opacity: 0.04;
+    opacity: 0.2;
 }
 
 img {
@@ -152,7 +152,7 @@ img {
 
 .container .box:nth-child(1) .circle,
 .container .box:nth-child(1) .buy{
-    background-color: rgb(185, 15, 157);
+    background-color: rgb(248, 183, 232);
 }
 
 .container .box:nth-child(2) .circle,
@@ -162,5 +162,5 @@ img {
 
 .container .box:nth-child(3) .circle,
 .container .box:nth-child(3) .buy{
-    background-color: rgb(158, 6, 6);
+    background-color: rgb(245, 182, 182);
 }
